@@ -1,0 +1,129 @@
+.main_section {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+.main_section .text_area {
+    color: #fff;
+}
+
+.main_section .text_area h1 {
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-bottom: 0px;
+}
+
+.main_section .text_area h5 {
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    word-spacing: 4px;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+.color_secondary {
+    color: #007388;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #007388;
+    border-color: #007388;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: #152b50;
+    border-color: #152b50;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+
+.form_section {
+    background-color: hsla(0, 0%, 89%, .75);
+    padding: 30px;
+    border-radius: 10px;
+    min-height: 450px;
+    position: relative;
+}
+
+.form_section .btn_sec {
+    top: 100px;
+}
+
+.standard_main_heading {
+    font-size: 25px;
+    font-weight: bold;
+    color: #152b50;
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 15px !important;
+    padding: 10px !important;
+    height: 50px !important;
+}
+
+
+.about_section .text_area p {
+    text-align: justify;
+}
+
+.my_set_70 {
+    margin: 70px auto;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.floor_slider_section .item .card {
+    background: #e2d8d6;
+    border-radius: 0px;
+    border: 0px;
+    padding: 15px 5px;
+}
+
+.bg-theme {
+    background: #e2d8d6;
+}
+
+.bg_secondary {
+    background: #e5f1f3;
+}
+
+.floor_slider_section .owl-nav {
+    position: absolute;
+    top: -70px;
+    right: 0px;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #fff;
+    background-color: #152b50;
+    font-size: 20px;
+}
+
+.facility_card {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.facility_card:hover {
+    background-color: #fff;
+    transition: .3s;
+    box-shadow: 9px 10px 19px 0px #00000047;
+}
+
+.before_span {
+    height: 5px;
+    width: 60px;
+    background: #152b50;
+    margin-bottom: 8px;
+}
