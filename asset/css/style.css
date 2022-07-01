@@ -1,6 +1,6 @@
 .main_section {
     position: absolute;
-    top: 30%;
+    top: 150px;
     width: 100%;
 }
 
@@ -28,13 +28,18 @@
 .color_secondary {
     color: #007388;
 }
+.bg_color_secondary {
+    background-color: #007388 !important;
+}
 
 .btn:hover {
     color: #fff;
     background-color: #007388;
     border-color: #007388;
 }
-
+.form_sec_footer{
+    padding: 100px 0px;
+}
 .btn-theme {
     color: #fff;
     background-color: #152b50;
@@ -126,4 +131,167 @@ input {
     width: 60px;
     background: #152b50;
     margin-bottom: 8px;
+}
+.count_heading{
+    font-size: 60px;
+    font-weight: bold;
+    color: #8c6a61;
+}
+.font-30{
+    font-size: 30px;
+}
+/* .owl-stage{
+    display: flex;
+} */
+.owl-carousel-project.owl-loaded {
+    display: block;
+    overflow-x: hidden;
+}
+
+.owl-carousel-project .owl-stage-outer {
+    position: relative;
+    /* overflow: hidden; */
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel-project .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    -moz-backface-visibility: hidden;
+}
+.owl-carousel-project.owl-drag .owl-item {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.owl-carousel-project .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+.learn_more_btn_other{
+    background: #cec4c2;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -20px;
+}
+.icon_sec i{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    vertical-align: middle;
+}
+.text_underline{
+    text-decoration: underline;
+}
+
+.owl-carousel-project .item .card{
+    border: 2px solid transparent;
+    transition: .3s;
+}
+.owl-carousel-project .item .card .learn_more_btn_other:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.owl-carousel-project .item .card .learn_more_btn_other{
+    transition: .3s;
+}
+.owl-carousel-project .item .card:hover{
+    border: 2px solid #067f94;
+}
+.owl-carousel-project .item .card:hover .learn_more_btn_other{
+    background-color: #067f94;
+    transition: .3s;
+}
+.owl-carousel-project .owl-prev{
+    margin-top: 50px !important;
+}
+.bg_dark_theme{
+    background-color: #152b50;
+    color: #fff;
+}
+
+.footer_section .text_area .icons_sec a{
+    margin-right: 20px !important;
+    font-size: 20px;
+    color: #fff;
+}
+.footer_section .text_area .icons_sec{
+    margin-top: 20px;
+}
+.footer_section .text_area h5{
+    line-height: 1.5;
+}
+
+@media (max-width:992px){
+    .main_section {
+        /* position: relative; */
+        top: 100px;
+    }
+    .container{
+        max-width: 920px;
+    }
+    .position-relative .img-container img{
+        height: 600px;
+    }
+    .main_section .text_area{
+        text-align: center;
+    }
+    .main_section .text_area h1{
+        font-size: 40px;
+    }
+    .main_section .text_area h5{
+        font-size: 20px;
+    }
+    .mble_set{
+        position: relative;
+        top: 250px;
+    }
+    .bg_dark_theme{
+        padding: 30px 0px;
+    }
+    .gallery_section h5.standard_main_heading {
+        padding: 0px !important;
+    }
+    .font-40{
+        font-size: 35px;
+    }
+    .footer_section .text_area  h4{
+        font-size: 20px;
+    }
+    .form_sec_footer{
+        padding: 50px 0px;
+    }
+    .footer_section .text_area  h5{
+        font-size: 18px;
+    }
+    .footer_section .text_area  h1{
+        font-size: 25px;
+    }
+    .form_section{
+        margin-top: 20px;
+    }
+    /* .bg_dark_theme,
+    .payment_section,
+    .bg-theme,
+    .facilities_section,
+    .floor_slider_section,
+    .gallery_section,
+    .about_section {
+        position: relative;
+        top: -500px;
+    } */
+    .btn.w-25.btn-theme.text-uppercase{
+        width: 100% !important;
+    }
+    .form_section .btn_sec{
+        top:auto;
+    }
 }
