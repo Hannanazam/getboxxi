@@ -585,6 +585,50 @@
     </div>
     </div>
 
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        <div class="modal-body p-0">
+                <div class="form_section rounded-0">
+                    <form>
+                        <h5 class="text-uppercase text-center standard_main_heading">register your inquiry</h5>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3">
+                                <input type="text" class="form-control shadow-none" id="" placeholder="First name"
+                                    value="" required>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <input type="text" class="form-control shadow-none" id="" placeholder="Last name"
+                                    value="" required>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <input type="text" class="form-control shadow-none" id=""
+                                    placeholder="Email Address" value="" required>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <input type="text" class="form-control shadow-none" id="" placeholder="Phone Number"
+                                    value="" required>
+                            </div>
+                            <div class="col-md-12  mb-3">
+                                <input type="text" class="form-control shadow-none" id=""
+                                    placeholder="Enter your inquiry" value="" required>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="btn btn-theme text-center w-100" type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 <script src="asset/js/jquery.min.js"></script>
@@ -598,6 +642,9 @@ if ($(window).width() < 650) {
     var mble_img = $('.banner_img').attr('src',img_attr);
 }
 
+    setTimeout(() => {
+        $('.modal').modal('show');
+    }, 10000);
     $('.owl-carousel').owlCarousel({
         loop: false,
         stagePadding: 15,
